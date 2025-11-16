@@ -13,6 +13,7 @@ name,type1,type2,ability1,ability2,hiddenability,hp,attack,defence,specialattack
 "Beldum-Delta-Spider","Ground","Bug","Poison Touch","Immunity","Poison Heal",40,55,80,35,60,30,300
 "Bergmite-Delta","Rock",NULL,"Solid Rock","Battle Armor","Sand Stream",55,69,85,32,35,28,304
 "Bisharp-Delta","Flying","Fighting","Frisk","Defiant","Wind Force",65,125,100,60,70,70,490
+"Bisharp-Delta-Mega","Flying","Fighting","Technician",NULL,NULL,65,145,130,60,85,105,590
 "Blastoise-Delta","Dark","Fighting","Shadow Call",NULL,"Shadow Dance",79,83,100,85,105,78,530
 "Blaziken-Delta","Psychic","Flying","Keen Eye",NULL,"Gale Wings",80,120,70,110,70,80,530
 "Budew-Delta","Dark","Fairy","Shadow Dance","Heliophobia","Inner Focus",40,30,35,50,70,55,280
