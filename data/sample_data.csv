@@ -15,13 +15,16 @@ name,type1,type2,ability1,ability2,hiddenability,hp,attack,defence,specialattack
 "Bisharp-Delta","Flying","Fighting","Frisk","Defiant","Wind Force",65,125,100,60,70,70,490
 "Bisharp-Delta-Mega","Flying","Fighting","Technician",NULL,NULL,65,145,130,60,85,105,590
 "Blastoise-Delta","Dark","Fighting","Shadow Call",NULL,"Shadow Dance",79,83,100,85,105,78,530
+"Blastoise-Delta-Mega","Dark","Fighting","Mega Launcher",NULL,NULL,79,103,120,135,115,78,630
 "Blaziken-Delta","Psychic","Flying","Keen Eye",NULL,"Gale Wings",80,120,70,110,70,80,530
 "Budew-Delta","Dark","Fairy","Shadow Dance","Heliophobia","Inner Focus",40,30,35,50,70,55,280
 "Bulbasaur-Delta","Fairy","Psychic","Psycho Call",NULL,"Regenerator",45,49,49,65,65,45,318
 "Buneary-Delta","Fighting",NULL,"Pickpocket","Frisk","Limber",55,66,44,44,56,85,350
 "Camerupt-Delta","Poison",NULL,"Venomous","Poison Point","Liquid Ooze",70,100,70,105,75,40,460
+"Camerupt-Delta-Mega","Poison",NULL,"Venomous",NULL,NULL,70,120,100,145,105,20,560
 "Chandelure-Delta","Fairy","Fire","Flash Fire","Weak Armor","Fairy Aura",60,55,90,145,90,80,520
 "Charizard-Delta","Ghost","Dragon","Spirit Call",NULL,"Dark Aura",78,84,78,109,85,100,534
+"Charizard-Delta-Mega","Ghost","Dragon","Noctem",NULL,NULL,78,104,78,159,115,100,634
 "Charmander-Delta","Ghost","Dragon","Spirit Call",NULL,"Dark Aura",39,52,43,60,50,65,309
 "Charmeleon-Delta","Ghost","Dragon","Spirit Call",NULL,"Dark Aura",58,64,58,80,65,80,405
 "Chinchou-Delta","Ghost","Fire","Flash Fire","Unnerve","Levitate",75,38,38,56,56,67,330
@@ -61,10 +64,16 @@ name,type1,type2,ability1,ability2,hiddenability,hp,attack,defence,specialattack
 "Froakie-Delta","Grass",NULL,"Steadfast",NULL,"Prankster",41,56,40,62,44,71,314
 "Frogadier-Delta","Grass",NULL,"Steadfast",NULL,"Prankster",54,63,52,83,56,97,405
 "Froslass-Delta","Fire",NULL,"Competitive",NULL,"Flash Fire",70,80,70,80,70,110,480
+"Froslass-Delta-Mega","Fire","Ghost","Magic Guard",NULL,NULL,70,80,85,120,105,120,580
+"Gallade-Delta","Electric","Ice","Volt Absorb",NULL,"Ice Body",68,125,65,65,115,80,518
+"Gallade-Delta-Mega","Electric","Ice","Volt Absorb",NULL,NULL,68,165,95,65,115,110,618
 "Gardevoir-Delta","Electric","Ice","Lightning Rod","Clear Body","Snow Cloak",68,65,65,125,115,80,518
+"Gardevoir-Delta-Mega","Electric","Ice","Lightning Rod",NULL,NULL,68,85,65,165,135,100,618
 "Geodude-Delta","Psychic","Rock","Regenerator","Sap Sipper","Magic Bounce",40,80,100,30,30,20,300
 "Girafarig-Delta","Steel","Poison","Anger Point","Stench","Intimidate",70,80,65,90,65,85,455
+"Girafarig-Delta-Mega","Steel","Poison","Intimidate",NULL,NULL,70,80,95,130,95,85,555
 "Glalie-Delta","Fire","Rock","Rock Head",NULL,"Flash Fire",80,80,80,80,80,80,480
+"Glalie-Delta-Mega","Fire","Rock","Reckless",NULL,NULL,80,120,80,120,80,100,580
 "Golem-Delta","Psychic","Rock","Regenerator","Sap Sipper","Magic Bounce",80,120,130,55,65,45,495
 "Golett-Delta","Fighting","Steel","Iron Fist","Battle Armor","Guts",59,74,50,35,50,35,303
 "Golurk-Delta","Fighting","Steel","Iron Fist","Battle Armor","Guts",89,124,80,55,80,55,483
@@ -100,8 +109,10 @@ name,type1,type2,ability1,ability2,hiddenability,hp,attack,defence,specialattack
 "Litwick-Delta","Fairy","Fire","Flash Fire","Weak Armor","Fairy Aura",50,30,55,65,55,20,275
 "Lombre-Delta","Psychic","Water","Magic Bounce","Synchronize","Unaware",60,50,50,60,70,50,340
 "Lopunny-Delta","Fighting",NULL,"Unburden","Inner Focus","Limber",65,76,84,54,96,105,480
+"Lopunny-Delta-Mega","Fighting","Psychic","Infiltrator",NULL,NULL,65,136,94,54,96,135,580
 "Lotad-Delta","Psychic","Water","Magic Bounce","Synchronize","Unaware",40,30,30,40,50,30,220
 "Lucario-Delta","Dark","Ground","Justified","Pressure","Mummy",70,110,70,115,70,90,525
+"Lucario-Delta-Mega","Dark","Ground","Defiant",NULL,NULL,70,145,88,140,70,112,625
 "Ludicolo-Delta","Psychic","Water","Magic Bounce","Synchronize","Unaware",80,70,70,90,100,70,480
 "Luxio-Delta","Steel","Poison","Poison Touch","Vampiric","Venomous",60,85,49,60,49,60,363
 "Luxray-Delta","Steel","Poison","Poison Touch","Vampiric","Venomous",80,120,79,95,79,70,523
@@ -110,15 +121,21 @@ name,type1,type2,ability1,ability2,hiddenability,hp,attack,defence,specialattack
 "Magmortar-Delta","Water","Steel","Mega Launcher",NULL,"Filter",75,95,67,125,95,83,540
 "Maractus-Delta","Steel",NULL,"Motor Drive","Clear Body","Trace",75,86,67,106,67,60,461
 "Mawile-Delta","Grass","Dark","Serene Grace","Flower Veil","Immunity",50,85,85,55,55,50,380
+"Mawile-Delta-Mega","Grass","Dark","Arena Trap",NULL,NULL,50,105,125,55,95,50,480
 "Medicham-Delta","Fairy","Ground","Sap Sipper",NULL,"Athenian",60,60,75,60,75,80,410
+"Medicham-Delta-Mega","Fairy","Ground","Athenian",NULL,NULL,60,100,85,80,85,100,510
 "Meditite-Delta","Fairy",NULL,"Sap Sipper",NULL,"Athenian",30,40,55,40,55,60,280
 "Meloetta-Delta","Dark","Fairy","Filter",NULL,NULL,100,128,90,77,77,128,600
 "Meloetta-Delta-Magician","Dark","Psychic","Filter",NULL,NULL,100,77,77,128,128,90,600
 "Metagross-Delta-Ruin","Grass","Rock","Sturdy",NULL,"Rock Head",80,135,130,95,90,70,600
+"Metagross-Delta-Ruin-Crystal","Grass","Crystal","Weak Armor",NULL,NULL,80,180,100,120,100,100,580
+"Metagross-Delta-Ruin-Mega","Grass","Rock","Rock Head",NULL,NULL,80,145,150,105,110,100,700
 "Metagross-Delta-Spider","Ground","Bug","Poison Touch","Immunity","Poison Heal",80,135,130,95,90,70,600
+"Metagross-Delta-Spider-Mega","Ground","Bug","Mold Breaker",NULL,NULL,80,145,150,105,110,110,700
 "Metang-Delta-Ruin","Grass","Rock","Sturdy",NULL,"Rock Head",60,75,100,55,80,50,420
 "Metang-Delta-Spider","Ground","Bug","Poison Touch","Immunity","Poison Heal",60,75,100,55,80,50,420
 "Milotic-Delta","Ghost",NULL,"Regenerator","Defiant","Cursed Body",95,60,79,100,125,81,540
+"Milotic-Delta-Mega","Ghost",NULL,"Absolution",NULL,NULL,95,70,108,130,155,81,640
 "Minun-Delta","Ice","Fairy","Cute Charm",NULL,"Pixilate",60,40,50,75,85,95,405
 "Misdreavus-Delta","Ice","Fairy","Magic Guard",NULL,"Winter Joy",60,60,60,85,85,85,435
 "Mismagius-Delta","Ice","Fairy","Magic Guard",NULL,"Winter Joy",60,60,60,105,105,105,495
@@ -136,6 +153,7 @@ name,type1,type2,ability1,ability2,hiddenability,hp,attack,defence,specialattack
 "Phantump-Delta","Fairy",NULL,"Snow Warning","Overcoat","Snow Cloak",43,70,48,50,60,38,309
 "Pichu-Delta","Flying","Fairy","Cute Charm","Cloud Nine","Gale Wings",20,40,15,35,35,60,205
 "Pidgeot-Delta","Dark","Dragon","Intimidate","Early Bird","Marvel Scale",83,80,75,70,70,101,479
+"Pidgeot-Delta-Mega","Dark","Dragon","Intimidate",NULL,NULL,83,80,80,135,80,121,579
 "Pidgeotto-Delta","Dark","Dragon","Intimidate","Early Bird","Marvel Scale",63,60,55,50,50,71,349
 "Pidgey-Delta","Dark","Dragon","Intimidate","Early Bird","Marvel Scale",40,45,40,35,35,56,251
 "Pikachu-Delta","Flying","Fairy","Cute Charm","Cloud Nine","Gale Wings",35,55,40,50,50,90,320
@@ -154,8 +172,10 @@ name,type1,type2,ability1,ability2,hiddenability,hp,attack,defence,specialattack
 "Roselia-Delta","Dark","Fairy","Shadow Dance","Heliophobia","Limber",50,60,45,100,80,65,400
 "Roserade-Delta","Dark","Fairy","Shadow Dance","Heliophobia","Limber",60,70,65,125,105,90,515
 "Sableye-Delta","Fire","Rock","Solid Rock","Weak Armor","Unburden",50,75,75,65,65,50,380
+"Sableye-Delta-Mega","Fire","Rock","Dry Skin",NULL,NULL,50,85,125,85,115,50,480
 "Sceptile-Delta","Dragon","Fighting","Inner Focus",NULL,"Guts",70,85,65,105,85,120,530
 "Scizor-Delta","Ice","Fighting","Tough Claws","Ice Cleats","Super Luck",70,130,100,55,80,65,500
+"Scizor-Delta-Mega","Ice","Fighting","Adaptability",NULL,NULL,70,150,140,65,100,75,600
 "Scolipede-Delta","Rock","Fire","Weak Armor","Magma Armor","Mold Breaker",60,100,89,55,69,112,485
 "Scrafty-Delta","Grass",NULL,"Rough Skin","Rivalry","Anger Point",65,90,115,45,115,58,488
 "Scyther-Delta","Ice","Fighting","Hustle","Ice Cleats","Super Luck",70,110,80,55,80,105,500
@@ -172,6 +192,7 @@ name,type1,type2,ability1,ability2,hiddenability,hp,attack,defence,specialattack
 "Solosis-Delta","Ghost","Rock","Levitate","Cursed Body","Intimidate",45,30,40,105,50,20,290
 "Squirtle-Delta","Dark","Fighting","Shadow Call",NULL,"Shadow Dance",44,48,65,50,64,43,314
 "Sunflora-Delta","Fire","Poison","Flame Body","Analytic","Poison Point",75,75,55,105,85,30,425
+"Sunflora-Delta-Mega","Fire","Poison","Chlorofury",NULL,NULL,75,85,80,135,105,45,525
 "Sunkern-Delta","Fire","Poison","Flame Body","Analytic","Poison Point",30,30,30,30,30,30,180
 "Tangela-Delta","Ground",NULL,"Dry Skin","Sand Force","Rough Skin",65,55,115,100,40,60,435
 "Tangrowth-Delta","Ground","Fighting","Dry Skin","Sand Force","Rough Skin",100,100,125,110,50,50,535
@@ -184,8 +205,10 @@ name,type1,type2,ability1,ability2,hiddenability,hp,attack,defence,specialattack
 "Trevenant-Delta","Fairy","Fighting","Snow Warning","Overcoat","Snow Cloak",85,110,76,65,82,56,474
 "Turtwig-Delta","Water","Ground","Water Absorb",NULL,"Swift Swim",55,68,64,45,55,31,318
 "Typhlosion-Delta","Electric","Steel","Motor Drive",NULL,"Lightning Rod",78,84,78,109,85,100,534
+"Typhlosion-Delta-Mega","Electric","Steel","Supercell",NULL,NULL,78,89,88,159,110,110,634
 "Venipede-Delta","Rock","Fire","Weak Armor","Magma Armor","Mold Breaker",30,45,59,30,39,57,260
 "Venusaur-Delta","Fairy","Psychic","Psycho Call",NULL,"Regenerator",80,82,83,100,100,80,525
+"Venusaur-Delta-Mega","Fairy","Psychic","Hubris",NULL,NULL,80,100,123,122,120,80,625
 "Vespiquen-Delta","Steel","Fire","Levitate",NULL,"Speed Boost",70,80,102,80,102,40,474
 "Volcarona-Delta","Dark","Poison","Levitate",NULL,"Absolution",85,60,65,135,105,100,550
 "Wailmer-Delta","Ice","Flying","Wonder Skin","Refrigerate","Snow Cloak",130,70,35,70,35,60,400
