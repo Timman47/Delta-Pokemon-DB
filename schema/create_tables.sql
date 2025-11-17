@@ -1,5 +1,6 @@
-CREATE TABLE delta_pokemon (
-  name VARCHAR(255) NOT NULL PRIMARY KEY,
+CREATE TABLE delta_pokemon_list (
+  id INT PRIMARY KEY AUTO_INCREMENT,
+  name VARCHAR(255) NOT NULL,
   type1 CHAR(8) NOT NULL,
   type2 CHAR(8),
   ability1 VARCHAR(255) NOT NULL,
@@ -14,7 +15,7 @@ CREATE TABLE delta_pokemon (
   bst INT NOT NULL
 );
 
-LOAD DATA INFILE '/data/sample_data.csv' INTO TABLE delta_pokemon
+LOAD DATA INFILE '/data/sample_data.csv' INTO TABLE delta_pokemon_list
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
 LINES TERMINATED BY '\n' IGNORE 1 ROWS;
