@@ -1,0 +1,113 @@
+/* Custom styles for Delta Pokemon Database */
+
+.pokemon-card {
+  transition: transform 0.2s ease-in-out;
+  border: 1px solid #dee2e6;
+}
+
+.pokemon-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.type-badge {
+  margin-right: 5px;
+  text-transform: capitalize;
+}
+
+.stat-bar {
+  margin-bottom: 10px;
+}
+
+.progress {
+  height: 8px;
+  background-color: #e9ecef;
+}
+
+.ability {
+  border-left: 3px solid #007bff;
+  padding-left: 10px;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+.card-title a {
+  color: #495057;
+}
+
+.card-title a:hover {
+  color: #007bff;
+}
+
+/* Type-specific colors */
+.type-fire {
+  background-color: #ff6b6b !important;
+}
+.type-water {
+  background-color: #74c0fc !important;
+}
+.type-grass {
+  background-color: #51cf66 !important;
+}
+.type-electric {
+  background-color: #ffd43b !important;
+  color: #000 !important;
+}
+.type-psychic {
+  background-color: #da77f2 !important;
+}
+.type-ice {
+  background-color: #91a7ff !important;
+}
+.type-dragon {
+  background-color: #845ef7 !important;
+}
+.type-dark {
+  background-color: #495057 !important;
+}
+.type-fighting {
+  background-color: #f03e3e !important;
+}
+.type-poison {
+  background-color: #9775fa !important;
+}
+.type-ground {
+  background-color: #f59f00 !important;
+}
+.type-flying {
+  background-color: #91a7ff !important;
+}
+.type-bug {
+  background-color: #69db7c !important;
+}
+.type-rock {
+  background-color: #868e96 !important;
+}
+.type-ghost {
+  background-color: #6741d9 !important;
+}
+.type-steel {
+  background-color: #adb5bd !important;
+  color: #000 !important;
+}
+.type-fairy {
+  background-color: #fcc2d7 !important;
+  color: #000 !important;
+}
+.type-normal {
+  background-color: #ced4da !important;
+  color: #000 !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .pokemon-card {
+    margin-bottom: 1rem;
+  }
+
+  .stat-bar {
+    margin-bottom: 8px;
+  }
+}

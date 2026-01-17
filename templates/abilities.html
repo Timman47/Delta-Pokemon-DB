@@ -1,0 +1,23 @@
+{% extends "base.html" %} {% block title %}Abilities - Delta Pokemon Database{%
+endblock %} {% block content %}
+<div class="row">
+  <div class="col-12">
+    <h1 class="mb-4">All Abilities</h1>
+    <p class="lead">Complete list of {{ abilities|length }} abilities</p>
+  </div>
+</div>
+
+<div class="row">
+  {% for ability in abilities %}
+  <div class="col-md-6 col-lg-4 mb-3">
+    <div class="card h-100">
+      <div class="card-body">
+        <h6 class="card-title text-primary">{{ ability.name }}</h6>
+        <p class="card-text small">{{ ability.description }}</p>
+        <small class="text-muted">ID: {{ ability.id }}</small>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+{% endblock %}

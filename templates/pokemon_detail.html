@@ -1,0 +1,150 @@
+{% extends "base.html" %} {% block title %}{{ pokemon.name }} - Delta Pokemon
+Database{% endblock %} {% block content %}
+<div class="row">
+  <div class="col-12">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item">
+          <a href="{{ url_for('index') }}">Pokemon</a>
+        </li>
+        <li class="breadcrumb-item active">{{ pokemon.name }}</li>
+      </ol>
+    </nav>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-lg-8">
+    <div class="card">
+      <div class="card-header">
+        <h1 class="mb-0">{{ pokemon.name }}</h1>
+        <div class="mt-2">
+          <span class="badge bg-primary type-badge fs-6"
+            >{{ pokemon.type1 }}</span
+          >
+          {% if pokemon.type2 %}
+          <span class="badge bg-primary type-badge fs-6"
+            >{{ pokemon.type2 }}</span
+          >
+          {% endif %}
+        </div>
+      </div>
+      <div class="card-body">
+        <h5>Base Stats</h5>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="stat-bar mb-2">
+              <div class="d-flex justify-content-between">
+                <span>HP</span>
+                <span>{{ pokemon.hp }}</span>
+              </div>
+              <div class="progress">
+                <div
+                  class="progress-bar bg-success"
+                  style="width: {{ (pokemon.hp / 255) * 100 }}%"
+                ></div>
+              </div>
+            </div>
+            <div class="stat-bar mb-2">
+              <div class="d-flex justify-content-between">
+                <span>Attack</span>
+                <span>{{ pokemon.attack }}</span>
+              </div>
+              <div class="progress">
+                <div
+                  class="progress-bar bg-danger"
+                  style="width: {{ (pokemon.attack / 255) * 100 }}%"
+                ></div>
+              </div>
+            </div>
+            <div class="stat-bar mb-2">
+              <div class="d-flex justify-content-between">
+                <span>Defence</span>
+                <span>{{ pokemon.defence }}</span>
+              </div>
+              <div class="progress">
+                <div
+                  class="progress-bar bg-warning"
+                  style="width: {{ (pokemon.defence / 255) * 100 }}%"
+                ></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="stat-bar mb-2">
+              <div class="d-flex justify-content-between">
+                <span>Sp. Attack</span>
+                <span>{{ pokemon.specialattack }}</span>
+              </div>
+              <div class="progress">
+                <div
+                  class="progress-bar bg-info"
+                  style="width: {{ (pokemon.specialattack / 255) * 100 }}%"
+                ></div>
+              </div>
+            </div>
+            <div class="stat-bar mb-2">
+              <div class="d-flex justify-content-between">
+                <span>Sp. Defence</span>
+                <span>{{ pokemon.specialdefence }}</span>
+              </div>
+              <div class="progress">
+                <div
+                  class="progress-bar bg-secondary"
+                  style="width: {{ (pokemon.specialdefence / 255) * 100 }}%"
+                ></div>
+              </div>
+            </div>
+            <div class="stat-bar mb-2">
+              <div class="d-flex justify-content-between">
+                <span>Speed</span>
+                <span>{{ pokemon.speed }}</span>
+              </div>
+              <div class="progress">
+                <div
+                  class="progress-bar bg-primary"
+                  style="width: {{ (pokemon.speed / 255) * 100 }}%"
+                ></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mt-3">
+          <h6>
+            Base Stat Total:
+            <span class="badge bg-dark">{{ pokemon.bst }}</span>
+          </h6>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-lg-4">
+    <div class="card">
+      <div class="card-header">
+        <h5 class="mb-0">Abilities</h5>
+      </div>
+      <div class="card-body">
+        <div class="ability mb-3">
+          <h6 class="text-primary">{{ pokemon.ability1 }}</h6>
+          <p class="small text-muted">{{ pokemon.ability1_desc }}</p>
+        </div>
+
+        {% if pokemon.ability2 %}
+        <div class="ability mb-3">
+          <h6 class="text-primary">{{ pokemon.ability2 }}</h6>
+          <p class="small text-muted">{{ pokemon.ability2_desc }}</p>
+        </div>
+        {% endif %} {% if pokemon.hiddenability %}
+        <div class="ability mb-3">
+          <h6 class="text-warning">
+            {{ pokemon.hiddenability }} <small>(Hidden)</small>
+          </h6>
+          <p class="small text-muted">{{ pokemon.hiddenability_desc }}</p>
+        </div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
