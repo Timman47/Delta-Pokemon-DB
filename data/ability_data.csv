@@ -1,6 +1,6 @@
 id,name,description
 1,"Absolution","If New Moon is active, this Pokemon's Sp.Atk is 1.5x; loses 1/8 max HP every turn."
-2,"Adaptability","This Pokemon's same-type attack bonus (STAB) is 2 instead of 1.5." 
+2,"Adaptability","This Pokemon's same-type attack bonus (STAB) is 2 instead of 1.5."
 3,"Aftermath","If this Pokemon is KOed with a contact move, that move's user loses 1/4 its max HP."
 4,"Amplifier","Sound-based moves are boosted by 1.25x."
 5,"Analytic","This Pokemon's attacks have 1.3x power if it is the last to move in a turn."
@@ -138,15 +138,15 @@ id,name,description
 137,"Venomous","All effects that cause Poison now cause Badly Poisoned."
 138,"Vital Spirit","This Pokemon cannot fall asleep. Gaining this Ability while asleep cures it."
 139,"Volt Absorb","This Pokemon heals 1/4 of its max HP when hit by Electric moves; Electric immunity."
-140,"Water Absorb",
-141,"Water Veil",
-142,"Weak Armor",
-143,"White Smoke",
-144,"Wind Force",
-155,"Winter Joy",
-156,"Wonder Skin",
-157,"Arena Trap",
-158,"Chlorofury",
-159,"Supercell",
-160,"Reckless",
-161,"Ice Body",
+140,"Water Absorb","This Pokemon heals 1/4 of its max HP when hit by Water moves; Water immunity."
+141,"Water Veil","This Pokemon cannot be burned. Gaining this Ability while burned cures it."
+142,"Weak Armor","If a physical attack hits this Pokemon, Defense is lowered by 1, Speed is raised by 2."
+143,"White Smoke","Prevents other Pokemon from lowering this Pokemon's stat stages."
+144,"Wind Force","Raises Speed when hit by a Flying-type move; Flying immunity."
+155,"Winter Joy","Power is boosted from Nov-Feb, cut from May-Aug."
+156,"Wonder Skin","Status moves with accuracy checks are 50% accurate when used on this Pokemon."
+157,"Arena Trap","Prevents opposing Pokemon from choosing to switch out unless they are airborne."
+158,"Chlorofury","User's stats are boosted to avenge its allies."
+159,"Supercell","If New Moon/Rain is active, this Pokemon's Sp. Atk is 1.5x."
+160,"Reckless","This Pokemon's attacks with recoil or crash damage have 1.2x power; not Struggle."
+161,"Ice Body","If Snow is active, this Pokemon heals 1/16 of its max HP every turn."
